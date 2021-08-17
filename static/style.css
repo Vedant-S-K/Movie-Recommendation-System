@@ -1,0 +1,35 @@
+.h1{
+     position: relative;
+     color: #252839;
+     -webkit-text-stroke: 0.2vw #01fe87;
+     font-size: 2.8vw;
+     text-transform: uppercase;
+ }
+
+ .h1::before{
+     content: "Movie Recommender System";
+     width: 95%;
+     color: #01fe87;
+     position: absolute;
+     top: 10;
+     left: 0;
+     border-right: 2px solid #01fe87;
+     border-width: 2px;
+ }
+
+ .h2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1vw;
+    color: cyan;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+ .label{
+    color: #4CCEF3;
+    letter-spacing: 4px;
+    text-transform: uppercase
+ }
+
